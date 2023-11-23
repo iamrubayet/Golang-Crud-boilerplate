@@ -1,0 +1,13 @@
+.PHONY: build run
+
+# Build the Docker image
+build:
+	docker-compose build
+
+# Run the Docker containers
+run:
+	docker-compose up
+
+# Stop and remove the Docker containers
+stop:
+	docker-compose down

@@ -1,0 +1,11 @@
+# Database configuration
+[database]
+host = "db"
+port = 3306
+user = "your_database_user"
+password = "your_database_password"
+name = "your_database_name"
+
+# API configuration
+[api]
+port = 8080
